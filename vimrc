@@ -437,6 +437,7 @@ set number
 set cursorline
 set cursorcolumn
 set pastetoggle=<f5>
+set nohlsearch
 
 try
 " Pathogen
