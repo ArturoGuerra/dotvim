@@ -438,6 +438,8 @@ set cursorline
 set cursorcolumn
 set pastetoggle=<f5>
 set nohlsearch
+set term=screen-256color
+
 
 try
 " Pathogen
