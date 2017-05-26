@@ -148,6 +148,8 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable
 
+set term=screen-256color
+
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
@@ -438,7 +440,6 @@ set cursorline
 set cursorcolumn
 set pastetoggle=<f5>
 set nohlsearch
-set term=screen-256color
 
 
 try
