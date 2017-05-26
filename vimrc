@@ -148,7 +148,10 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable
 
-set term=screen-256color
+" Enables 256 colors if tmux session is detected
+if exists('$TERM')
+   set term=screen-256color
+endif
 
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
