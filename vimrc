@@ -149,7 +149,7 @@ set foldcolumn=1
 syntax enable
 
 " Enables 256 colors if tmux session is detected
-if exists('$TERM')
+if exists('$TMUX')
    set term=screen-256color
 endif
 
