@@ -148,8 +148,8 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable
 
-" Enables 256 colors in tmux
-if exists('$TMUX')
+" Enable 256 colors in tmux
+if exists("$TMUX")
     set term=screen-256color
 endif
 
