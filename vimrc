@@ -443,14 +443,14 @@ set nohlsearch
 
 " Pathogen
 try
-execute pathogen#infect()
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='powerlineish'
-let g:airline_powerline_fonts = 1
-let g:solarized_termcolors=256
-let g:indentLine_color_term = 239
-let g:indentLine_char = '┆'
-let g:vim_markdown_folding_disabled = 1
+    execute pathogen#infect()
+    let g:airline#extensions#tabline#enabled = 1
+    let g:airline_theme='powerlineish'
+    let g:airline_powerline_fonts = 1
+    let g:solarized_termcolors=256
+    let g:indentLine_color_term = 239
+    let g:indentLine_char = '┆'
+    let g:vim_markdown_folding_disabled = 1
 catch
 endtry
 
