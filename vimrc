@@ -441,8 +441,8 @@ set pastetoggle=<f5>
 set nohlsearch
 
 
-try
 " Pathogen
+try
 execute pathogen#infect()
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='powerlineish'
@@ -451,6 +451,11 @@ let g:solarized_termcolors=256
 let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 let g:vim_markdown_folding_disabled = 1
-colorscheme solarized
+catch
+endtry
+
+" Tries to set solarized colorscheme
+try
+    colorscheme solarized
 catch
 endtry
