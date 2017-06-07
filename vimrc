@@ -445,6 +445,8 @@ set pastetoggle=<f5>
 " Disables highlighter it's just annoying
 set nohlsearch
 
+" Find
+set path+=**
 
 " Pathogen
 try
