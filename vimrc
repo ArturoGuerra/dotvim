@@ -148,7 +148,6 @@ set foldcolumn=1
 " Enable syntax highlighting
 syntax enable
 
-
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
     set t_Co=256
@@ -433,11 +432,17 @@ endfunction
 "   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 "endif
 
-" Custom
+" Shows line number
 set number
+
+" Highlights line and column
 set cursorline
 set cursorcolumn
+
+" Sets paste toggle to F5
 set pastetoggle=<f5>
+
+" Disables highlighter it's just annoying
 set nohlsearch
 
 
