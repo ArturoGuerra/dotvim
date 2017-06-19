@@ -66,6 +66,9 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
+" :Tabtospace Changed all tabs to spaces
+" (useful for fixing python indentation errors)
+command Tabtospace %s/\t/    /g
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
