@@ -50,6 +50,8 @@ set history=500
 filetype plugin on
 filetype indent on
 au BufRead,BufNewFile *.json set filetype=json
+au BufRead,BufNewFile *.ejs set filetype=html
+
 
 " Set to auto read when a file is changed from the outside
 set autoread
