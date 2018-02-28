@@ -51,6 +51,7 @@ filetype plugin on
 filetype indent on
 au BufRead,BufNewFile *.json set filetype=json
 au BufRead,BufNewFile *.ejs set filetype=html
+au BufRead,BufNewFile *.vue set filetype=html
 
 
 " Set to auto read when a file is changed from the outside
