@@ -57,6 +57,7 @@ au BufRead,BufNewFile *.json set filetype=json
 au BufRead,BufNewFile *.ejs set filetype=html ts=2 sw=2 expandtab
 au BufRead,BufNewFile *.vue set filetype=html ts=2 sw=2 expandtab
 au BufRead,BufNewFile *.html set filetype=html ts=2 sw=2 expandtab
+au BufRead,BufNewFile *.js set filetype=javascript ts=2 sw=2 expandtab
 
 
 " Set to auto read when a file is changed from the outside
