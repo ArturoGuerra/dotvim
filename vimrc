@@ -46,10 +46,19 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
 au BufRead,BufNewFile *.json set filetype=json
+au BufRead,BufNewFile *.ejs set filetype=html ts=2 sw=2 expandtab
+au BufRead,BufNewFile *.vue set filetype=html ts=2 sw=2 expandtab
+au BufRead,BufNewFile *.html set filetype=html ts=2 sw=2 expandtab
+au BufRead,BufNewFile *.js set filetype=javascript ts=2 sw=2 expandtab
+
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -197,8 +206,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" set shiftwidth=4
+" set tabstop=4
 
 " Linebreak on 500 characters
 set lbr
