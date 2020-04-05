@@ -49,3 +49,6 @@
 [submodule "bundle/dart-vim-plugin"]
 	path = bundle/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin
+[submodule "/home/arturo/.vim/bundle/typescript-vim"]
+	path = /home/arturo/.vim/bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
